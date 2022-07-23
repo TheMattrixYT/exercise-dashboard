@@ -72,6 +72,22 @@ body {
 }
 
 .change .bar3 {
-    -webkit-transform: rotate(45deg) trnaslate(-8px, -8px);
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* TODO: fix revert */
+
+.revert .bar1 {
+    -webkit-transform: rotate(45deg) translate(9px, -6px);
+    transform: rotate(45deg) translate(9px, -6px);
+}
+
+.revert .bar2 {
+    opacity: 100%;
+}
+
+.revert .bar3 {
+    -webkit-transform: rotate(-45deg) translate(8px, -8px);
+    transform: rotate(-45deg) translate(-8px, -8px);
 }
