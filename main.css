@@ -9,7 +9,9 @@ body {
 /* nav bar */
 
 .sidenav {
-    width: 160px;
+    font-family: Lato;
+    height: 100%;
+    width: 55px;
     position: fixed;
     z-index: 1;
     top: 0;
