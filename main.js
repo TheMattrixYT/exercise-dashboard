@@ -19,3 +19,7 @@ app.on('ready', function() {
         slashes: true
     }));
 });
+
+app.on('closed', () => {
+    mainWindow = null;
+})
