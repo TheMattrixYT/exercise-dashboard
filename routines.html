@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="main.css" rel="stylesheet">
         <link href="assets/icons/css/uicons-regular-rounded.css" rel="stylesheet">
-        <link href="routines.css">
+        <link href="routines.css" rel="stylesheet">
         <title>Routines</title>
     </head>
     <body>
@@ -27,11 +27,19 @@
             <h1 class="titles">Routines</h1>
             <div class="routines">
                 <h2>Exercise Routines:</h2>
-                <button>Organize new Routine<span class="fi-rr-add"></span></button>
+                <button class="add-button">Organize new Routine <span class="fi-rr-add"></span></button>
             </div>
             <div class="items">
                 <h2>Routines Items:</h2>
-                <button>Add New Item<span class="fi-rr-add"></span></button>
+                <a href="new-item.html">
+                    <button class="add-button">
+                        Add New Item 
+                        <span class="fi-rr-add"></span>
+                    </button>
+                </a>
+                <ul id="list">
+
+                </ul>
             </div>
         </div>
     </body>
