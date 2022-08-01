@@ -9,8 +9,8 @@ let newItem;
 // waiting for app to be ready
 app.on('ready', function() {
     newItem = new BrowserWindow({
-        width: 1600,
-        height: 900
+        width: 800,
+        height: 600
     });
     // load html
     newItem.loadURL(url.format({
