@@ -59,3 +59,19 @@ body {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
+
+/* footer + header styling */
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: #818181;
+}
+
+/* main dash grid */
+
+.grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 500;
+}
