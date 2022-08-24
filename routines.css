@@ -3,18 +3,3 @@
     width: 50%;
     box-sizing: border-box;
 }
-
-.add-button {
-    background-color: #3b3b3b;
-    color: white;
-    padding: 5px 12px;
-    border: none;
-    border-radius: 8px;
-    transition-duration: 0.5s;
-}
-
-.add-button:hover {
-    background-color: white;
-    color: black;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
