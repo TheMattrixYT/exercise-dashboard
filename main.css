@@ -60,14 +60,6 @@ body {
     .sidenav a {font-size: 18px;}
 }
 
-/* footer + header styling */
-
-footer {
-    display: flex;
-    align-items: center;
-    background-color: #818181;
-}
-
 /* main dash grid */
 
 .grid {
